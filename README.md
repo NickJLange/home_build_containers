@@ -1,2 +1,5 @@
-# home_build_containers
-Build Containers/VMs, oh-my - preventing pollution of diskspace
+
+A Build Container for the ages!
+A second layer can be added for network-access restrictions.
+
+```podman run -it -v ~/dev:/workspace --rm --userns=keep-id localhost/build-container```
